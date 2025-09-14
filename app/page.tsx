@@ -1,5 +1,4 @@
 import Head from "@/components/Header/Head";
-import Image from "next/image";
 import HomeScreen from "@/components/Pages/Home";
 import Footer from "@/components/Pages/Footer";
 
