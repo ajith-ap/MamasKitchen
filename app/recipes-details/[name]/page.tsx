@@ -3,12 +3,12 @@ import Head from '@/components/Header/Head';
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react';
 
-interface Receipes {
-    strMeal: string;
-    strInstructions: string;
-    strArea: string;
-    idMeal: string;
-}
+// interface Receipes {
+//     strMeal: string;
+//     strInstructions: string;
+//     strArea: string;
+//     idMeal: string;
+// }
 
 // interface PageProps {
 //   params: any;
