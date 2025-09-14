@@ -10,7 +10,6 @@ const Page = () => {
     const [loading, setLoading] = useState<boolean>(true);
     const [searchitem, setSearchitem] = useState('');
     const [searchquery, setSearchquery] = useState('');
-    const [searchempty, setSearchempty] = useState('')
 
     const handleChange = (e: any) => {
         setSearchitem(e.target.value);
