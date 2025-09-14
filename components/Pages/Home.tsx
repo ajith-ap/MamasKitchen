@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import { FoodItem } from '@/app/types/FoodItem';
+// import { FoodItem } from '@/app/types/FoodItem';
 import Image from 'next/image'
 import Gallary from './Gallary';
 import { MdOutlineExpandMore, MdExpandLess } from "react-icons/md";
@@ -13,9 +13,9 @@ interface Category {
 }
 
 // Define the structure of the full API response
-interface CategoriesResponse {
-    categories: Category[];
-}
+// interface CategoriesResponse {
+//     categories: Category[];
+// }
 
 const HomeScreen: React.FC = () => {
 
